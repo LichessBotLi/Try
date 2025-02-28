@@ -155,7 +155,7 @@ challenge:                         # Incoming challenges.
     #- correspondence
     #- unlimited
   modes:                           # Game modes to accept.
-    #- casual                       # Unrated games.
+    - casual                       # Unrated games.
     - rated                        # Rated games - must comment if the engine doesn't try to win.
   block_list:                      # List of users from which the challenges are always declined.
     #- YoBot_v2
